@@ -1,0 +1,21 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "xpNeeded": 100,
+      "cards": [
+        {"question": "ما هو الفاعل؟", "answer": "الفاعل هو من قام بالفعل"},
+        {"question": "ما هي الجملة الاسمية؟", "answer": "الجملة التي تبدأ باسم"}
+      ],
+      "video": "video1.mp4"
+    },
+    {
+      "level": 2,
+      "xpNeeded": 200,
+      "cards": [
+        {"question": "ما هو المفعول به؟", "answer": "المفعول به هو من وقع عليه الفعل"}
+      ],
+      "video": "video2.mp4"
+    }
+  ]
+}
