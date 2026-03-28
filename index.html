@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>معرفة</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>معرفة</h1>
+  <div class="header-controls">
+    <button id="toggle-theme">ليلي/نهاري</button>
+    <select id="language">
+      <option value="ar">العربية</option>
+      <option value="en">English</option>
+    </select>
+  </div>
+</header>
+
+<main>
+  <section id="login-section">
+    <input type="email" id="email" placeholder="ادخل بريدك">
+    <button id="login-btn">دخول</button>
+  </section>
+
+  <section id="map-section" class="hidden">
+    <h2>الخريطة</h2>
+    <div id="levels"></div>
+  </section>
+
+  <section id="card-section" class="hidden">
+    <div id="flashcard" class="card">
+      <div class="front"></div>
+      <div class="back"></div>
+    </div>
+    <div class="card-controls">
+      <button id="know-btn">عرفت</button>
+      <button id="dont-know-btn">لم أعرف</button>
+    </div>
+    <p>XP: <span id="xp">0</span> | Level: <span id="level">1</span></p>
+  </section>
+
+  <section id="video-section" class="hidden">
+    <h2>فيديو تعليمي</h2>
+    <video id="video-player" controls width="400">
+      <source src="" type="video/mp4">
+    </video>
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
